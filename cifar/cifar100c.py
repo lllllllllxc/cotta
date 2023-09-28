@@ -17,7 +17,7 @@ from conf import cfg, load_cfg_fom_args
 
 logger = logging.getLogger(__name__)
 
-
+#函数打印出以损坏类型和严重度为标识的错误率。
 def evaluate(description):
     load_cfg_fom_args(description)
     # configure model

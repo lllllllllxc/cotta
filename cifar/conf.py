@@ -213,3 +213,4 @@ def load_cfg_fom_args(description="Config options."):
     logger.info(
         "PyTorch Version: torch={}, cuda={}, cudnn={}".format(*version))
     logger.info(cfg)
+'''这段代码定义了一系列用于配置加载、存储和日志记录的函数。'''

@@ -114,7 +114,7 @@ class ColorJitterPro(ColorJitter):
                 img = F.adjust_gamma(img, gamma_factor)
 
         return img
-
+#个__repr__方法的目的是为了方便我们在打印对象时获取有关对象属性的信息。当我们打印这个类的实例时，它会返回一个类似于构造函数的字符串，包含了对象的属性值。
     def __repr__(self):
         format_string = self.__class__.__name__ + '('
         format_string += 'brightness={0}'.format(self.brightness)
